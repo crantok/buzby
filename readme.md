@@ -2,7 +2,7 @@
 
 ## Why?
 
-Yeah, there are loads of good site builders out there (I'm told) so why did I write another one? Well, why do we write any software? I thought it would be as quick to write my own site builder and incrementally add features as it would be to learn the interface of an existing one and the work arounds to get it to do whatever uncommon things I would eventually want.
+Yeah, there are loads of good site builders out there (I'm told) so why did I write another one? TBH, I thought it would be as quick to write my own site builder and incrementally add features as it would be to learn the interface of an existing one and the work arounds to get it to do whatever uncommon things I would eventually want.
 
 Also, as you'll see if you poke around the code, it's pretty small. My intention was to keep things simple and small enough for features to be hacked in per project (rather than implementing generic ways of plugging in to the build process.) Ooh, I like that: "It's not a plugin architecture, it's a hack-in architecture."
 
