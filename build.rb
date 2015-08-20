@@ -337,6 +337,7 @@ module ContentInflator
             item[:tmp_filename], Filesystem::PREVIEW_PATH, item['clean_urls']
             )
 
+        # Path relative to the site root, so should work for pre, pub, etc.
         item[:url_path] = url_path preview_file_path, Filesystem::PREVIEW_PATH
 
         Filesystem.write_file preview_file_path, file_content

@@ -49,7 +49,7 @@ There are two output directories (./preview and ./published). All content is put
 
 * Make sure the current directory is the root of Buzby's directory tree.
 * To build the site(s): `ruby build.rb`
-* To remove intermediate and output directories: `ruby build.rb clean`
+* To remove the intermediate directory and the contents (other than hidden files in the root) of each output directory: `ruby build.rb clean`
 
 Buzby currently executes the `clean` at the beginning of the site build. I just extracted it as a separate command for debugging purposes.
 
