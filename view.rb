@@ -43,7 +43,7 @@ class View < Mustache
 
         context[:all_metadata].select do |item|
             item[:file_type] == :content  && (
-                context[:status] == :preview  ||  item[:published] )
+                context[:status] == :preview  ||  item['published'] )
         end.each do | item |
             context[( item['content_type'] + 's').to_sym ] ||= []
             context[( item['content_type'] + 's').to_sym ].push item
